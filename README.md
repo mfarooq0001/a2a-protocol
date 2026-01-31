@@ -1,6 +1,6 @@
-# A2A-Protocol
+# A2A Meeting Coordinator
 
-**A2A-Protocol** is an experimental multi-agent coordination framework built using the **A2A SDK**. It enables autonomous agents to schedule meetings by negotiating directly with one another through structured A2A messages.
+**A2A Meeting Coordinator** is an experimental multi-agent coordination framework built using the **A2A SDK**. It enables autonomous agents to schedule meetings by negotiating directly with one another through structured A2A messages.
 
 This repository demonstrates three agents — each implemented with a different AI framework — coordinating to schedule a meeting based on availability.
 
@@ -12,7 +12,7 @@ In this setup:
 
 - **Miles** is the **host agent** responsible for organizing the meeting.
 - **John** and **Ava** are **participant agents** who respond with availability.
-- All agents communicate using **A2A-Protocol**, exchanging structured A2A messages.
+- All agents communicate using **A2A Meeting Coordinator**, exchanging structured A2A messages.
 
 The goal is to reach agreement on a common meeting time using automated negotiation.
 
@@ -47,7 +47,7 @@ The goal is to reach agreement on a common meeting time using automated negotiat
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd a2a-protocol
+   cd a2a-meeting-coordinator
    ```
 
 2. **Install dependencies:**
@@ -128,7 +128,7 @@ All messages conform to the structured A2A message format, ensuring compatibilit
 ## 📁 Project Structure
 
 ```
-a2a-protocol/
+a2a-meeting-coordinator/
 ├── ava_agent/          # LangChain-based participant agent
 │   ├── agent.py        # Agent implementation
 │   ├── agent_executor.py

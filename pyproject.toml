@@ -1,5 +1,5 @@
 [project]
-name = "a2a-protocol"
+name = "a2a-meeting-coordinator"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
